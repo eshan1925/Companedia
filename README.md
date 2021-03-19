@@ -1,16 +1,14 @@
 # companedia
 
-A new Flutter application.
+Collaborators-:
+Eshan Gupta,
+Udith Shyamsukha,
+Hrithik Agarwal,
+Tarunika Agarwal,
+Rithesh Kunchakuri
 
-## Getting Started
+Here we have created an app for filtering out the companies and the employees on your finger tips.
+The Application will have industry and company names pre-fed into the system. The Sales Team user can select the industry and company. Once the user clicks on 'Get Info, the application will display all the Decision Makers information which includes Name, Linkedin Profile, Email, contact number on the application page.
 
-This project is a starting point for a Flutter application.
+We as freshers tried our best to gain as much as experience and knowledge during this hackathon and created something that would reduce manual computation and the hassle during the time of searching profiles of employees that take decesions of the company.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
