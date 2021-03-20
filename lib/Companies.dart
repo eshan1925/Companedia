@@ -53,7 +53,6 @@ class _S1ScreenState extends State<S1Screen> {
                 },
               ),
             ),
-            /*
             Padding(
               padding: const EdgeInsets.all(24.0),
               child: new ElevatedButton(
@@ -130,14 +129,13 @@ class _S1ScreenState extends State<S1Screen> {
                 },
               ),
             ),
-            */
           ],
         ),
       ),
     );
   }
 }
-/*
+
 class S2Screen extends StatefulWidget {
   @override
   _S2ScreenState createState() => _S2ScreenState();
@@ -673,4 +671,3 @@ class _S5ScreenState extends State<S5Screen> {
     );
   }
 }
-*/

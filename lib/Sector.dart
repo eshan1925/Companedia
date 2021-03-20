@@ -53,7 +53,6 @@ class _SectorScreenState extends State<SectorScreen> {
                 },
               ),
             ),
-            /*
             Padding(
               padding: const EdgeInsets.all(24.0),
               child: new ElevatedButton(
@@ -130,8 +129,6 @@ class _SectorScreenState extends State<SectorScreen> {
                 },
               ),
             ),
-
-             */
           ],
         ),
       ),
