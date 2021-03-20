@@ -32,14 +32,15 @@ class _E1State extends State<E1> {
             ),
           ),
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               CircleAvatar(
                 radius: 50.0,
-                backgroundImage: AssetImage("images/pic.png"),
+                backgroundImage: AssetImage("images/1.jpg"),
               ),
               RichText(
                 text: TextSpan(
-                  text: 'Employee 1',
+                  text: 'Jaelynn Willams',
                   style: TextStyle(
                     fontFamily: 'AkayaTelivigala',
                     color: Colors.teal[700],
@@ -50,7 +51,7 @@ class _E1State extends State<E1> {
               ),
               RichText(
                 text: TextSpan(
-                  text: 'Python Coder',
+                  text: 'CEO',
                   style: TextStyle(
                     fontFamily: 'Oswald',
                     color: Colors.tealAccent[200],
@@ -68,7 +69,7 @@ class _E1State extends State<E1> {
                 ),
               ),
               new ElevatedButton(
-                onPressed: () => launch("tel:+91 8960434188"),
+                onPressed: () => launch("tel:+91 1111111111"),
                 child: ListTile(
                   tileColor: Colors.white,
                   leading: Icon(
@@ -77,7 +78,7 @@ class _E1State extends State<E1> {
                     color: Colors.blue.shade900,
                   ),
                   title: Text(
-                    "+91 8960434188",
+                    "+91 1111111111",
                     style: TextStyle(
                       color: Colors.blue.shade900,
                       fontFamily: 'Oswald',
@@ -93,7 +94,7 @@ class _E1State extends State<E1> {
                 ),
               ),
               new ElevatedButton(
-                onPressed: () => launch("mailto: eshan1925@gmail.com"),
+                onPressed: () => launch("mailto: JaelynnWillams@gmail.com"),
                 child: ListTile(
                   tileColor: Colors.white,
                   leading: Icon(
@@ -102,7 +103,7 @@ class _E1State extends State<E1> {
                     color: Colors.blue.shade900,
                   ),
                   title: Text(
-                    "eshan1925@gmail.com",
+                    "JaelynnWillams@gmail.com",
                     style: TextStyle(
                       color: Colors.blue.shade900,
                       fontFamily: 'Oswald',
@@ -119,7 +120,7 @@ class _E1State extends State<E1> {
               ),
               new ElevatedButton(
                 onPressed: () {
-                  launch("https://www.linkedin.com/in/eshan-gupta-883383202");
+                  launch("https://www.linkedin.com/in/jaelynnwilliams");
                 },
                 child: ListTile(
                   tileColor: Colors.white,
@@ -181,14 +182,15 @@ class _E2State extends State<E2> {
             ),
           ),
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               CircleAvatar(
                 radius: 50.0,
-                backgroundImage: AssetImage("images/pic.png"),
+                backgroundImage: AssetImage("images/2.jpg"),
               ),
               RichText(
                 text: TextSpan(
-                  text: 'Employee 2',
+                  text: 'Chris Brady',
                   style: TextStyle(
                     fontFamily: 'AkayaTelivigala',
                     color: Colors.teal[700],
@@ -199,7 +201,7 @@ class _E2State extends State<E2> {
               ),
               RichText(
                 text: TextSpan(
-                  text: 'Python Coder',
+                  text: 'General Counsel',
                   style: TextStyle(
                     fontFamily: 'Oswald',
                     color: Colors.tealAccent[200],
@@ -217,7 +219,7 @@ class _E2State extends State<E2> {
                 ),
               ),
               new ElevatedButton(
-                onPressed: () => launch("tel:+91 8960434188"),
+                onPressed: () => launch("tel:+91 1111111111"),
                 child: ListTile(
                   tileColor: Colors.white,
                   leading: Icon(
@@ -226,7 +228,7 @@ class _E2State extends State<E2> {
                     color: Colors.blue.shade900,
                   ),
                   title: Text(
-                    "+91 8960434188",
+                    "+91 1111111111",
                     style: TextStyle(
                       color: Colors.blue.shade900,
                       fontFamily: 'Oswald',
@@ -242,7 +244,7 @@ class _E2State extends State<E2> {
                 ),
               ),
               new ElevatedButton(
-                onPressed: () => launch("mailto: eshan1925@gmail.com"),
+                onPressed: () => launch("mailto: ChrisBrady@gmail.com"),
                 child: ListTile(
                   tileColor: Colors.white,
                   leading: Icon(
@@ -251,7 +253,7 @@ class _E2State extends State<E2> {
                     color: Colors.blue.shade900,
                   ),
                   title: Text(
-                    "eshan1925@gmail.com",
+                    "eChrisBrady@gmail.com",
                     style: TextStyle(
                       color: Colors.blue.shade900,
                       fontFamily: 'Oswald',
@@ -268,7 +270,8 @@ class _E2State extends State<E2> {
               ),
               new ElevatedButton(
                 onPressed: () {
-                  launch("https://www.linkedin.com/in/eshan-gupta-883383202");
+                  launch(
+                      "https://www.linkedin.com/in/christopher-brady-71846419/");
                 },
                 child: ListTile(
                   tileColor: Colors.white,
@@ -330,14 +333,15 @@ class _E3State extends State<E3> {
             ),
           ),
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               CircleAvatar(
                 radius: 50.0,
-                backgroundImage: AssetImage("images/pic.png"),
+                backgroundImage: AssetImage("images/3.jpg"),
               ),
               RichText(
                 text: TextSpan(
-                  text: 'Employee 3',
+                  text: 'David Portugal',
                   style: TextStyle(
                     fontFamily: 'AkayaTelivigala',
                     color: Colors.teal[700],
@@ -348,7 +352,7 @@ class _E3State extends State<E3> {
               ),
               RichText(
                 text: TextSpan(
-                  text: 'Python Coder',
+                  text: 'CFO',
                   style: TextStyle(
                     fontFamily: 'Oswald',
                     color: Colors.tealAccent[200],
@@ -366,7 +370,7 @@ class _E3State extends State<E3> {
                 ),
               ),
               new ElevatedButton(
-                onPressed: () => launch("tel:+91 8960434188"),
+                onPressed: () => launch("tel:+91 1111111111"),
                 child: ListTile(
                   tileColor: Colors.white,
                   leading: Icon(
@@ -375,7 +379,7 @@ class _E3State extends State<E3> {
                     color: Colors.blue.shade900,
                   ),
                   title: Text(
-                    "+91 8960434188",
+                    "+91 1111111111",
                     style: TextStyle(
                       color: Colors.blue.shade900,
                       fontFamily: 'Oswald',
@@ -391,7 +395,7 @@ class _E3State extends State<E3> {
                 ),
               ),
               new ElevatedButton(
-                onPressed: () => launch("mailto: eshan1925@gmail.com"),
+                onPressed: () => launch("mailto: DavidPortugal@gmail.com"),
                 child: ListTile(
                   tileColor: Colors.white,
                   leading: Icon(
@@ -400,7 +404,7 @@ class _E3State extends State<E3> {
                     color: Colors.blue.shade900,
                   ),
                   title: Text(
-                    "eshan1925@gmail.com",
+                    "DavidPortugal@gmail.com",
                     style: TextStyle(
                       color: Colors.blue.shade900,
                       fontFamily: 'Oswald',
@@ -417,7 +421,8 @@ class _E3State extends State<E3> {
               ),
               new ElevatedButton(
                 onPressed: () {
-                  launch("https://www.linkedin.com/in/eshan-gupta-883383202");
+                  launch(
+                      "https://www.linkedin.com/in/david-portugal-51248388/");
                 },
                 child: ListTile(
                   tileColor: Colors.white,
@@ -479,14 +484,15 @@ class _E4State extends State<E4> {
             ),
           ),
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               CircleAvatar(
                 radius: 50.0,
-                backgroundImage: AssetImage("images/pic.png"),
+                backgroundImage: AssetImage("images/4.jpg"),
               ),
               RichText(
                 text: TextSpan(
-                  text: 'Employee 4',
+                  text: 'Chris Myers',
                   style: TextStyle(
                     fontFamily: 'AkayaTelivigala',
                     color: Colors.teal[700],
@@ -497,7 +503,7 @@ class _E4State extends State<E4> {
               ),
               RichText(
                 text: TextSpan(
-                  text: 'Python Coder',
+                  text: 'EVP',
                   style: TextStyle(
                     fontFamily: 'Oswald',
                     color: Colors.tealAccent[200],
@@ -515,7 +521,7 @@ class _E4State extends State<E4> {
                 ),
               ),
               new ElevatedButton(
-                onPressed: () => launch("tel:+91 8960434188"),
+                onPressed: () => launch("tel:+91 2222222222"),
                 child: ListTile(
                   tileColor: Colors.white,
                   leading: Icon(
@@ -524,7 +530,7 @@ class _E4State extends State<E4> {
                     color: Colors.blue.shade900,
                   ),
                   title: Text(
-                    "+91 8960434188",
+                    "+91 2222222222",
                     style: TextStyle(
                       color: Colors.blue.shade900,
                       fontFamily: 'Oswald',
@@ -540,7 +546,7 @@ class _E4State extends State<E4> {
                 ),
               ),
               new ElevatedButton(
-                onPressed: () => launch("mailto: eshan1925@gmail.com"),
+                onPressed: () => launch("mailto: chrismyers@gmail.com"),
                 child: ListTile(
                   tileColor: Colors.white,
                   leading: Icon(
@@ -549,7 +555,7 @@ class _E4State extends State<E4> {
                     color: Colors.blue.shade900,
                   ),
                   title: Text(
-                    "eshan1925@gmail.com",
+                    "chrismyers@gmail.com",
                     style: TextStyle(
                       color: Colors.blue.shade900,
                       fontFamily: 'Oswald',
@@ -566,7 +572,7 @@ class _E4State extends State<E4> {
               ),
               new ElevatedButton(
                 onPressed: () {
-                  launch("https://www.linkedin.com/in/eshan-gupta-883383202");
+                  launch("https://www.linkedin.com/in/chris-myers-b872024/");
                 },
                 child: ListTile(
                   tileColor: Colors.white,
@@ -628,14 +634,15 @@ class _E5State extends State<E5> {
             ),
           ),
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               CircleAvatar(
                 radius: 50.0,
-                backgroundImage: AssetImage("images/pic.png"),
+                backgroundImage: AssetImage("images/5.jpg"),
               ),
               RichText(
                 text: TextSpan(
-                  text: 'Employee 5',
+                  text: 'Heather Dumas',
                   style: TextStyle(
                     fontFamily: 'AkayaTelivigala',
                     color: Colors.teal[700],
@@ -646,7 +653,7 @@ class _E5State extends State<E5> {
               ),
               RichText(
                 text: TextSpan(
-                  text: 'Python Coder',
+                  text: 'SVP',
                   style: TextStyle(
                     fontFamily: 'Oswald',
                     color: Colors.tealAccent[200],
@@ -664,7 +671,7 @@ class _E5State extends State<E5> {
                 ),
               ),
               new ElevatedButton(
-                onPressed: () => launch("tel:+91 8960434188"),
+                onPressed: () => launch("tel:+91 1231233123"),
                 child: ListTile(
                   tileColor: Colors.white,
                   leading: Icon(
@@ -673,7 +680,7 @@ class _E5State extends State<E5> {
                     color: Colors.blue.shade900,
                   ),
                   title: Text(
-                    "+91 8960434188",
+                    "+91 1231233123",
                     style: TextStyle(
                       color: Colors.blue.shade900,
                       fontFamily: 'Oswald',
@@ -689,7 +696,7 @@ class _E5State extends State<E5> {
                 ),
               ),
               new ElevatedButton(
-                onPressed: () => launch("mailto: eshan1925@gmail.com"),
+                onPressed: () => launch("mailto: heatherdumas@gmail.com"),
                 child: ListTile(
                   tileColor: Colors.white,
                   leading: Icon(
@@ -698,7 +705,7 @@ class _E5State extends State<E5> {
                     color: Colors.blue.shade900,
                   ),
                   title: Text(
-                    "eshan1925@gmail.com",
+                    "HeatherDumas@gmail.com",
                     style: TextStyle(
                       color: Colors.blue.shade900,
                       fontFamily: 'Oswald',
@@ -715,7 +722,7 @@ class _E5State extends State<E5> {
               ),
               new ElevatedButton(
                 onPressed: () {
-                  launch("https://www.linkedin.com/in/eshan-gupta-883383202");
+                  launch("https://www.linkedin.com/in/heather-dumas-2848383/");
                 },
                 child: ListTile(
                   tileColor: Colors.white,
@@ -777,14 +784,15 @@ class _E6State extends State<E6> {
             ),
           ),
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               CircleAvatar(
                 radius: 50.0,
-                backgroundImage: AssetImage("images/pic.png"),
+                backgroundImage: AssetImage("images/6.jpg"),
               ),
               RichText(
                 text: TextSpan(
-                  text: 'Employee 6',
+                  text: 'Ashwiani lohani',
                   style: TextStyle(
                     fontFamily: 'AkayaTelivigala',
                     color: Colors.teal[700],
@@ -795,7 +803,7 @@ class _E6State extends State<E6> {
               ),
               RichText(
                 text: TextSpan(
-                  text: 'Python Coder',
+                  text: 'CEO',
                   style: TextStyle(
                     fontFamily: 'Oswald',
                     color: Colors.tealAccent[200],
@@ -813,7 +821,7 @@ class _E6State extends State<E6> {
                 ),
               ),
               new ElevatedButton(
-                onPressed: () => launch("tel:+91 8960434188"),
+                onPressed: () => launch("tel:+91 1592512111"),
                 child: ListTile(
                   tileColor: Colors.white,
                   leading: Icon(
@@ -822,7 +830,7 @@ class _E6State extends State<E6> {
                     color: Colors.blue.shade900,
                   ),
                   title: Text(
-                    "+91 8960434188",
+                    "+91 1592512111",
                     style: TextStyle(
                       color: Colors.blue.shade900,
                       fontFamily: 'Oswald',
@@ -838,7 +846,7 @@ class _E6State extends State<E6> {
                 ),
               ),
               new ElevatedButton(
-                onPressed: () => launch("mailto: eshan1925@gmail.com"),
+                onPressed: () => launch("mailto: Ashwianilohani@gmail.com"),
                 child: ListTile(
                   tileColor: Colors.white,
                   leading: Icon(
@@ -847,7 +855,7 @@ class _E6State extends State<E6> {
                     color: Colors.blue.shade900,
                   ),
                   title: Text(
-                    "eshan1925@gmail.com",
+                    "Ashwianilohani@gmail.com",
                     style: TextStyle(
                       color: Colors.blue.shade900,
                       fontFamily: 'Oswald',
@@ -864,7 +872,7 @@ class _E6State extends State<E6> {
               ),
               new ElevatedButton(
                 onPressed: () {
-                  launch("https://www.linkedin.com/in/eshan-gupta-883383202");
+                  launch("https://in.linkedin.com/in/ashwani-lohani-856ab117");
                 },
                 child: ListTile(
                   tileColor: Colors.white,
@@ -926,14 +934,15 @@ class _E7State extends State<E7> {
             ),
           ),
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               CircleAvatar(
                 radius: 50.0,
-                backgroundImage: AssetImage("images/pic.png"),
+                backgroundImage: AssetImage("images/7.jpg"),
               ),
               RichText(
                 text: TextSpan(
-                  text: 'Employee 7',
+                  text: 'Pushpinder Singh',
                   style: TextStyle(
                     fontFamily: 'AkayaTelivigala',
                     color: Colors.teal[700],
@@ -944,7 +953,7 @@ class _E7State extends State<E7> {
               ),
               RichText(
                 text: TextSpan(
-                  text: 'Python Coder',
+                  text: 'COO',
                   style: TextStyle(
                     fontFamily: 'Oswald',
                     color: Colors.tealAccent[200],
@@ -962,7 +971,7 @@ class _E7State extends State<E7> {
                 ),
               ),
               new ElevatedButton(
-                onPressed: () => launch("tel:+91 8960434188"),
+                onPressed: () => launch("tel:+91 1245451212"),
                 child: ListTile(
                   tileColor: Colors.white,
                   leading: Icon(
@@ -971,7 +980,7 @@ class _E7State extends State<E7> {
                     color: Colors.blue.shade900,
                   ),
                   title: Text(
-                    "+91 8960434188",
+                    "+91 1245451212",
                     style: TextStyle(
                       color: Colors.blue.shade900,
                       fontFamily: 'Oswald',
@@ -987,7 +996,7 @@ class _E7State extends State<E7> {
                 ),
               ),
               new ElevatedButton(
-                onPressed: () => launch("mailto: eshan1925@gmail.com"),
+                onPressed: () => launch("mailto: PushpinderSingh@gmail.com"),
                 child: ListTile(
                   tileColor: Colors.white,
                   leading: Icon(
@@ -996,7 +1005,7 @@ class _E7State extends State<E7> {
                     color: Colors.blue.shade900,
                   ),
                   title: Text(
-                    "eshan1925@gmail.com",
+                    "PushpinderSingh@gmail.com",
                     style: TextStyle(
                       color: Colors.blue.shade900,
                       fontFamily: 'Oswald',
@@ -1013,7 +1022,8 @@ class _E7State extends State<E7> {
               ),
               new ElevatedButton(
                 onPressed: () {
-                  launch("https://www.linkedin.com/in/eshan-gupta-883383202");
+                  launch(
+                      "https://www.linkedin.com/in/pushpinder-singh-03142739/?originalSubdomain=in");
                 },
                 child: ListTile(
                   tileColor: Colors.white,
@@ -1075,14 +1085,15 @@ class _E8State extends State<E8> {
             ),
           ),
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               CircleAvatar(
                 radius: 50.0,
-                backgroundImage: AssetImage("images/pic.png"),
+                backgroundImage: AssetImage("images/8.jpg"),
               ),
               RichText(
                 text: TextSpan(
-                  text: 'Employee 8',
+                  text: 'Vinod Hejmadi',
                   style: TextStyle(
                     fontFamily: 'AkayaTelivigala',
                     color: Colors.teal[700],
@@ -1093,7 +1104,7 @@ class _E8State extends State<E8> {
               ),
               RichText(
                 text: TextSpan(
-                  text: 'Python Coder',
+                  text: 'CFO',
                   style: TextStyle(
                     fontFamily: 'Oswald',
                     color: Colors.tealAccent[200],
@@ -1111,7 +1122,7 @@ class _E8State extends State<E8> {
                 ),
               ),
               new ElevatedButton(
-                onPressed: () => launch("tel:+91 8960434188"),
+                onPressed: () => launch("tel:+91 1111122212"),
                 child: ListTile(
                   tileColor: Colors.white,
                   leading: Icon(
@@ -1120,7 +1131,7 @@ class _E8State extends State<E8> {
                     color: Colors.blue.shade900,
                   ),
                   title: Text(
-                    "+91 8960434188",
+                    "+91 11111222212",
                     style: TextStyle(
                       color: Colors.blue.shade900,
                       fontFamily: 'Oswald',
@@ -1136,7 +1147,7 @@ class _E8State extends State<E8> {
                 ),
               ),
               new ElevatedButton(
-                onPressed: () => launch("mailto: eshan1925@gmail.com"),
+                onPressed: () => launch("mailto: VinodHejmadi@gmail.com"),
                 child: ListTile(
                   tileColor: Colors.white,
                   leading: Icon(
@@ -1145,7 +1156,7 @@ class _E8State extends State<E8> {
                     color: Colors.blue.shade900,
                   ),
                   title: Text(
-                    "eshan1925@gmail.com",
+                    "VinodHejmadi@gmail.com",
                     style: TextStyle(
                       color: Colors.blue.shade900,
                       fontFamily: 'Oswald',
@@ -1162,7 +1173,8 @@ class _E8State extends State<E8> {
               ),
               new ElevatedButton(
                 onPressed: () {
-                  launch("https://www.linkedin.com/in/eshan-gupta-883383202");
+                  launch(
+                      "https://www.linkedin.com/in/vinod-hejmadi-3888aa6a/?originalSubdomain=in");
                 },
                 child: ListTile(
                   tileColor: Colors.white,
@@ -1224,14 +1236,15 @@ class _E9State extends State<E9> {
             ),
           ),
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               CircleAvatar(
                 radius: 50.0,
-                backgroundImage: AssetImage("images/pic.png"),
+                backgroundImage: AssetImage("images/9.jpg"),
               ),
               RichText(
                 text: TextSpan(
-                  text: 'Employee 9',
+                  text: 'David Bruno',
                   style: TextStyle(
                     fontFamily: 'AkayaTelivigala',
                     color: Colors.teal[700],
@@ -1242,7 +1255,7 @@ class _E9State extends State<E9> {
               ),
               RichText(
                 text: TextSpan(
-                  text: 'Python Coder',
+                  text: 'CIO',
                   style: TextStyle(
                     fontFamily: 'Oswald',
                     color: Colors.tealAccent[200],
@@ -1260,7 +1273,7 @@ class _E9State extends State<E9> {
                 ),
               ),
               new ElevatedButton(
-                onPressed: () => launch("tel:+91 8960434188"),
+                onPressed: () => launch("tel:+91 1111222211"),
                 child: ListTile(
                   tileColor: Colors.white,
                   leading: Icon(
@@ -1269,7 +1282,7 @@ class _E9State extends State<E9> {
                     color: Colors.blue.shade900,
                   ),
                   title: Text(
-                    "+91 8960434188",
+                    "+91 1111222211",
                     style: TextStyle(
                       color: Colors.blue.shade900,
                       fontFamily: 'Oswald',
@@ -1285,7 +1298,7 @@ class _E9State extends State<E9> {
                 ),
               ),
               new ElevatedButton(
-                onPressed: () => launch("mailto: eshan1925@gmail.com"),
+                onPressed: () => launch("mailto: davidbruno@gmail.com"),
                 child: ListTile(
                   tileColor: Colors.white,
                   leading: Icon(
@@ -1294,7 +1307,7 @@ class _E9State extends State<E9> {
                     color: Colors.blue.shade900,
                   ),
                   title: Text(
-                    "eshan1925@gmail.com",
+                    "davidbruno@gmail.com",
                     style: TextStyle(
                       color: Colors.blue.shade900,
                       fontFamily: 'Oswald',
@@ -1311,7 +1324,7 @@ class _E9State extends State<E9> {
               ),
               new ElevatedButton(
                 onPressed: () {
-                  launch("https://www.linkedin.com/in/eshan-gupta-883383202");
+                  launch("https://www.linkedin.com/");
                 },
                 child: ListTile(
                   tileColor: Colors.white,
@@ -1373,14 +1386,15 @@ class _E10State extends State<E10> {
             ),
           ),
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               CircleAvatar(
                 radius: 50.0,
-                backgroundImage: AssetImage("images/pic.png"),
+                backgroundImage: AssetImage("images/10.jpg"),
               ),
               RichText(
                 text: TextSpan(
-                  text: 'Employee 10',
+                  text: 'Brent Smith',
                   style: TextStyle(
                     fontFamily: 'AkayaTelivigala',
                     color: Colors.teal[700],
@@ -1391,7 +1405,7 @@ class _E10State extends State<E10> {
               ),
               RichText(
                 text: TextSpan(
-                  text: 'Python Coder',
+                  text: 'HOD',
                   style: TextStyle(
                     fontFamily: 'Oswald',
                     color: Colors.tealAccent[200],
@@ -1409,7 +1423,7 @@ class _E10State extends State<E10> {
                 ),
               ),
               new ElevatedButton(
-                onPressed: () => launch("tel:+91 8960434188"),
+                onPressed: () => launch("tel:+91 111122222"),
                 child: ListTile(
                   tileColor: Colors.white,
                   leading: Icon(
@@ -1418,7 +1432,7 @@ class _E10State extends State<E10> {
                     color: Colors.blue.shade900,
                   ),
                   title: Text(
-                    "+91 8960434188",
+                    "+91 1111122222",
                     style: TextStyle(
                       color: Colors.blue.shade900,
                       fontFamily: 'Oswald',
@@ -1434,7 +1448,7 @@ class _E10State extends State<E10> {
                 ),
               ),
               new ElevatedButton(
-                onPressed: () => launch("mailto: eshan1925@gmail.com"),
+                onPressed: () => launch("mailto: brentsmith@gmail.com"),
                 child: ListTile(
                   tileColor: Colors.white,
                   leading: Icon(
@@ -1443,7 +1457,7 @@ class _E10State extends State<E10> {
                     color: Colors.blue.shade900,
                   ),
                   title: Text(
-                    "eshan1925@gmail.com",
+                    "brentsmith@gmail.com",
                     style: TextStyle(
                       color: Colors.blue.shade900,
                       fontFamily: 'Oswald',
@@ -1460,7 +1474,7 @@ class _E10State extends State<E10> {
               ),
               new ElevatedButton(
                 onPressed: () {
-                  launch("https://www.linkedin.com/in/eshan-gupta-883383202");
+                  launch("https://www.linkedin.com/in/brentcsmithcfo");
                 },
                 child: ListTile(
                   tileColor: Colors.white,
@@ -4502,14 +4516,15 @@ class _E31State extends State<E31> {
             ),
           ),
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               CircleAvatar(
                 radius: 50.0,
-                backgroundImage: AssetImage("images/pic.png"),
+                backgroundImage: AssetImage('images/1.jpg'),
               ),
               RichText(
                 text: TextSpan(
-                  text: 'Employee 1',
+                  text: 'John Gunn',
                   style: TextStyle(
                     fontFamily: 'AkayaTelivigala',
                     color: Colors.teal[700],
@@ -4520,7 +4535,7 @@ class _E31State extends State<E31> {
               ),
               RichText(
                 text: TextSpan(
-                  text: 'Python Coder',
+                  text: 'CEO',
                   style: TextStyle(
                     fontFamily: 'Oswald',
                     color: Colors.tealAccent[200],
@@ -4538,7 +4553,7 @@ class _E31State extends State<E31> {
                 ),
               ),
               new ElevatedButton(
-                onPressed: () => launch("tel:+91 8960434188"),
+                onPressed: () => launch("tel:+91 1155993322"),
                 child: ListTile(
                   tileColor: Colors.white,
                   leading: Icon(
@@ -4547,7 +4562,7 @@ class _E31State extends State<E31> {
                     color: Colors.blue.shade900,
                   ),
                   title: Text(
-                    "+91 8960434188",
+                    "+91 1155993322",
                     style: TextStyle(
                       color: Colors.blue.shade900,
                       fontFamily: 'Oswald',
@@ -4563,7 +4578,7 @@ class _E31State extends State<E31> {
                 ),
               ),
               new ElevatedButton(
-                onPressed: () => launch("mailto: eshan1925@gmail.com"),
+                onPressed: () => launch("mailto:johngunn@gmail.com"),
                 child: ListTile(
                   tileColor: Colors.white,
                   leading: Icon(
@@ -4572,7 +4587,7 @@ class _E31State extends State<E31> {
                     color: Colors.blue.shade900,
                   ),
                   title: Text(
-                    "eshan1925@gmail.com",
+                    "johngunn@gmail.com",
                     style: TextStyle(
                       color: Colors.blue.shade900,
                       fontFamily: 'Oswald',
@@ -4589,7 +4604,7 @@ class _E31State extends State<E31> {
               ),
               new ElevatedButton(
                 onPressed: () {
-                  launch("https://www.linkedin.com/in/eshan-gupta-883383202");
+                  launch("https://www.linkedin.com/in/johnnybgood");
                 },
                 child: ListTile(
                   tileColor: Colors.white,
@@ -4651,14 +4666,15 @@ class _E32State extends State<E32> {
             ),
           ),
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               CircleAvatar(
                 radius: 50.0,
-                backgroundImage: AssetImage("images/pic.png"),
+                backgroundImage: AssetImage("images/2.jpg"),
               ),
               RichText(
                 text: TextSpan(
-                  text: 'Employee 2',
+                  text: 'Suman Saha',
                   style: TextStyle(
                     fontFamily: 'AkayaTelivigala',
                     color: Colors.teal[700],
@@ -4669,7 +4685,7 @@ class _E32State extends State<E32> {
               ),
               RichText(
                 text: TextSpan(
-                  text: 'Python Coder',
+                  text: 'COO',
                   style: TextStyle(
                     fontFamily: 'Oswald',
                     color: Colors.tealAccent[200],
@@ -4687,7 +4703,7 @@ class _E32State extends State<E32> {
                 ),
               ),
               new ElevatedButton(
-                onPressed: () => launch("tel:+91 8960434188"),
+                onPressed: () => launch("tel:+91 11111111221"),
                 child: ListTile(
                   tileColor: Colors.white,
                   leading: Icon(
@@ -4696,7 +4712,7 @@ class _E32State extends State<E32> {
                     color: Colors.blue.shade900,
                   ),
                   title: Text(
-                    "+91 8960434188",
+                    "+91 11111112211",
                     style: TextStyle(
                       color: Colors.blue.shade900,
                       fontFamily: 'Oswald',
@@ -4712,7 +4728,7 @@ class _E32State extends State<E32> {
                 ),
               ),
               new ElevatedButton(
-                onPressed: () => launch("mailto: eshan1925@gmail.com"),
+                onPressed: () => launch("mailto: sumansaha@gmail.com"),
                 child: ListTile(
                   tileColor: Colors.white,
                   leading: Icon(
@@ -4721,7 +4737,7 @@ class _E32State extends State<E32> {
                     color: Colors.blue.shade900,
                   ),
                   title: Text(
-                    "eshan1925@gmail.com",
+                    "sumansaha1925@gmail.com",
                     style: TextStyle(
                       color: Colors.blue.shade900,
                       fontFamily: 'Oswald',
@@ -4738,7 +4754,8 @@ class _E32State extends State<E32> {
               ),
               new ElevatedButton(
                 onPressed: () {
-                  launch("https://www.linkedin.com/in/eshan-gupta-883383202");
+                  launch(
+                      "https://www.linkedin.com/in/suman-saha-b3559125/?originalSubdomain=in");
                 },
                 child: ListTile(
                   tileColor: Colors.white,
@@ -4800,14 +4817,15 @@ class _E33State extends State<E33> {
             ),
           ),
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               CircleAvatar(
                 radius: 50.0,
-                backgroundImage: AssetImage("images/pic.png"),
+                backgroundImage: AssetImage("images/3.jpg"),
               ),
               RichText(
                 text: TextSpan(
-                  text: 'Employee 3',
+                  text: 'Daniel Breault',
                   style: TextStyle(
                     fontFamily: 'AkayaTelivigala',
                     color: Colors.teal[700],
@@ -4818,7 +4836,7 @@ class _E33State extends State<E33> {
               ),
               RichText(
                 text: TextSpan(
-                  text: 'Python Coder',
+                  text: 'CFO',
                   style: TextStyle(
                     fontFamily: 'Oswald',
                     color: Colors.tealAccent[200],
@@ -4836,7 +4854,7 @@ class _E33State extends State<E33> {
                 ),
               ),
               new ElevatedButton(
-                onPressed: () => launch("tel:+91 8960434188"),
+                onPressed: () => launch("tel:+91 11115554448"),
                 child: ListTile(
                   tileColor: Colors.white,
                   leading: Icon(
@@ -4845,7 +4863,7 @@ class _E33State extends State<E33> {
                     color: Colors.blue.shade900,
                   ),
                   title: Text(
-                    "+91 8960434188",
+                    "+91 11115554448",
                     style: TextStyle(
                       color: Colors.blue.shade900,
                       fontFamily: 'Oswald',
@@ -4861,7 +4879,7 @@ class _E33State extends State<E33> {
                 ),
               ),
               new ElevatedButton(
-                onPressed: () => launch("mailto: eshan1925@gmail.com"),
+                onPressed: () => launch("mailto: danielbrault@gmail.com"),
                 child: ListTile(
                   tileColor: Colors.white,
                   leading: Icon(
@@ -4870,7 +4888,7 @@ class _E33State extends State<E33> {
                     color: Colors.blue.shade900,
                   ),
                   title: Text(
-                    "eshan1925@gmail.com",
+                    "danielbrault@gmail.com",
                     style: TextStyle(
                       color: Colors.blue.shade900,
                       fontFamily: 'Oswald',
@@ -4887,7 +4905,8 @@ class _E33State extends State<E33> {
               ),
               new ElevatedButton(
                 onPressed: () {
-                  launch("https://www.linkedin.com/in/eshan-gupta-883383202");
+                  launch(
+                      "https://www.linkedin.com/in/daniel-breault-99ba235/?originalSubdomain=ca");
                 },
                 child: ListTile(
                   tileColor: Colors.white,
@@ -4949,14 +4968,15 @@ class _E34State extends State<E34> {
             ),
           ),
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               CircleAvatar(
                 radius: 50.0,
-                backgroundImage: AssetImage("images/pic.png"),
+                backgroundImage: AssetImage("images/4.jpg"),
               ),
               RichText(
                 text: TextSpan(
-                  text: 'Employee 4',
+                  text: 'Mark Rowe',
                   style: TextStyle(
                     fontFamily: 'AkayaTelivigala',
                     color: Colors.teal[700],
@@ -4967,7 +4987,7 @@ class _E34State extends State<E34> {
               ),
               RichText(
                 text: TextSpan(
-                  text: 'Python Coder',
+                  text: 'CIO',
                   style: TextStyle(
                     fontFamily: 'Oswald',
                     color: Colors.tealAccent[200],
@@ -4985,7 +5005,7 @@ class _E34State extends State<E34> {
                 ),
               ),
               new ElevatedButton(
-                onPressed: () => launch("tel:+91 8960434188"),
+                onPressed: () => launch("tel:+91 1717171717"),
                 child: ListTile(
                   tileColor: Colors.white,
                   leading: Icon(
@@ -4994,7 +5014,7 @@ class _E34State extends State<E34> {
                     color: Colors.blue.shade900,
                   ),
                   title: Text(
-                    "+91 8960434188",
+                    "+91 1717171717",
                     style: TextStyle(
                       color: Colors.blue.shade900,
                       fontFamily: 'Oswald',
@@ -5010,7 +5030,7 @@ class _E34State extends State<E34> {
                 ),
               ),
               new ElevatedButton(
-                onPressed: () => launch("mailto: eshan1925@gmail.com"),
+                onPressed: () => launch("mailto: markrowe@gmail.com"),
                 child: ListTile(
                   tileColor: Colors.white,
                   leading: Icon(
@@ -5019,7 +5039,7 @@ class _E34State extends State<E34> {
                     color: Colors.blue.shade900,
                   ),
                   title: Text(
-                    "eshan1925@gmail.com",
+                    "markrowe@gmail.com",
                     style: TextStyle(
                       color: Colors.blue.shade900,
                       fontFamily: 'Oswald',
@@ -5036,7 +5056,7 @@ class _E34State extends State<E34> {
               ),
               new ElevatedButton(
                 onPressed: () {
-                  launch("https://www.linkedin.com/in/eshan-gupta-883383202");
+                  launch("https://uk.linkedin.com/in/mark-rowe-39054959");
                 },
                 child: ListTile(
                   tileColor: Colors.white,
@@ -5098,14 +5118,15 @@ class _E35State extends State<E35> {
             ),
           ),
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               CircleAvatar(
                 radius: 50.0,
-                backgroundImage: AssetImage("images/pic.png"),
+                backgroundImage: AssetImage("images/5.jpg"),
               ),
               RichText(
                 text: TextSpan(
-                  text: 'Employee 5',
+                  text: 'Jamie Cutler',
                   style: TextStyle(
                     fontFamily: 'AkayaTelivigala',
                     color: Colors.teal[700],
@@ -5116,7 +5137,7 @@ class _E35State extends State<E35> {
               ),
               RichText(
                 text: TextSpan(
-                  text: 'Python Coder',
+                  text: 'HOD',
                   style: TextStyle(
                     fontFamily: 'Oswald',
                     color: Colors.tealAccent[200],
@@ -5134,7 +5155,7 @@ class _E35State extends State<E35> {
                 ),
               ),
               new ElevatedButton(
-                onPressed: () => launch("tel:+91 8960434188"),
+                onPressed: () => launch("tel:+91 2727272727"),
                 child: ListTile(
                   tileColor: Colors.white,
                   leading: Icon(
@@ -5143,7 +5164,7 @@ class _E35State extends State<E35> {
                     color: Colors.blue.shade900,
                   ),
                   title: Text(
-                    "+91 8960434188",
+                    "+91 2727272727",
                     style: TextStyle(
                       color: Colors.blue.shade900,
                       fontFamily: 'Oswald',
@@ -5159,7 +5180,7 @@ class _E35State extends State<E35> {
                 ),
               ),
               new ElevatedButton(
-                onPressed: () => launch("mailto: eshan1925@gmail.com"),
+                onPressed: () => launch("mailto: JamieCutler@gmail.com"),
                 child: ListTile(
                   tileColor: Colors.white,
                   leading: Icon(
@@ -5168,7 +5189,7 @@ class _E35State extends State<E35> {
                     color: Colors.blue.shade900,
                   ),
                   title: Text(
-                    "eshan1925@gmail.com",
+                    "JamieCutler@gmail.com",
                     style: TextStyle(
                       color: Colors.blue.shade900,
                       fontFamily: 'Oswald',
@@ -5185,7 +5206,7 @@ class _E35State extends State<E35> {
               ),
               new ElevatedButton(
                 onPressed: () {
-                  launch("https://www.linkedin.com/in/eshan-gupta-883383202");
+                  launch("https://www.linkedin.com/in/jamiecutler");
                 },
                 child: ListTile(
                   tileColor: Colors.white,

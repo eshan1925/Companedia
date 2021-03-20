@@ -48,7 +48,7 @@ class Home extends StatelessWidget {
                   style: TextStyle(
                       fontFamily: 'AkayaTelivigala',
                       fontSize: 30,
-                      color: Colors.yellow),
+                      color: Colors.grey.shade500),
                 ),
               ),
               Padding(
@@ -65,7 +65,7 @@ class Home extends StatelessWidget {
                             fontFamily: 'Oswald'),
                       ),
                     ),
-                    tileColor: Colors.lightGreenAccent.shade400,
+                    tileColor: Colors.yellow,
                   ),
                   onPressed: () {
                     Navigator.of(context).push(MaterialPageRoute(

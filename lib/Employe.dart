@@ -36,18 +36,28 @@ class _C1State extends State<C1> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            Center(
+              child: Text(
+                'These are the decesion making employees of the company select the employee of your choice.',
+                style: TextStyle(
+                  fontSize: 17,
+                  fontFamily: 'Oswald',
+                  color: Colors.white,
+                ),
+              ),
+            ),
             Padding(
               padding: const EdgeInsets.all(24.0),
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 1",
+                    "Jaelynn Willams (CEO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
@@ -60,13 +70,13 @@ class _C1State extends State<C1> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 2",
+                    "Chris Brady (GC)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
@@ -79,13 +89,13 @@ class _C1State extends State<C1> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 3",
+                    "David Portugal(CFO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
@@ -98,13 +108,13 @@ class _C1State extends State<C1> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 4",
+                    "Chris Myers (EVP)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
@@ -117,13 +127,13 @@ class _C1State extends State<C1> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 5",
+                    "Heather Dumas(FVP)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
@@ -170,18 +180,28 @@ class _C2State extends State<C2> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            Center(
+              child: Text(
+                'These are the decesion making employees of the company select the employee of your choice.',
+                style: TextStyle(
+                  fontSize: 17,
+                  fontFamily: 'Oswald',
+                  color: Colors.white,
+                ),
+              ),
+            ),
             Padding(
               padding: const EdgeInsets.all(24.0),
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 6",
+                    "Ashwiani lohani(CEO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
@@ -194,13 +214,13 @@ class _C2State extends State<C2> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 7",
+                    "Pushpinder Singh(COO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
@@ -213,13 +233,13 @@ class _C2State extends State<C2> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 8",
+                    "Vinod Hejmadi(CFO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
@@ -232,13 +252,13 @@ class _C2State extends State<C2> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 9",
+                    "David Bruno(CIO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
@@ -251,13 +271,13 @@ class _C2State extends State<C2> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 10",
+                    "Brent Smith(HOD)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
@@ -304,22 +324,32 @@ class _C3State extends State<C3> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            Center(
+              child: Text(
+                'These are the decesion making employees of the company select the employee of your choice.',
+                style: TextStyle(
+                  fontSize: 17,
+                  fontFamily: 'Oswald',
+                  color: Colors.white,
+                ),
+              ),
+            ),
             Padding(
               padding: const EdgeInsets.all(24.0),
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 11",
+                    "Ashwiani lohani(CEO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E11()));
+                      .push(MaterialPageRoute(builder: (context) => E6()));
                 },
               ),
             ),
@@ -328,17 +358,17 @@ class _C3State extends State<C3> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 12",
+                    "Pushpinder Singh(COO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E12()));
+                      .push(MaterialPageRoute(builder: (context) => E7()));
                 },
               ),
             ),
@@ -347,17 +377,17 @@ class _C3State extends State<C3> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 13",
+                    "Vinod Hejmadi(CFO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E13()));
+                      .push(MaterialPageRoute(builder: (context) => E8()));
                 },
               ),
             ),
@@ -366,17 +396,17 @@ class _C3State extends State<C3> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 14",
+                    "David Bruno(CIO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E14()));
+                      .push(MaterialPageRoute(builder: (context) => E9()));
                 },
               ),
             ),
@@ -385,17 +415,17 @@ class _C3State extends State<C3> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 15",
+                    "Brent Smith(HOD)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E15()));
+                      .push(MaterialPageRoute(builder: (context) => E10()));
                 },
               ),
             ),
@@ -438,22 +468,32 @@ class _C4State extends State<C4> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            Center(
+              child: Text(
+                'These are the decesion making employees of the company select the employee of your choice.',
+                style: TextStyle(
+                  fontSize: 17,
+                  fontFamily: 'Oswald',
+                  color: Colors.white,
+                ),
+              ),
+            ),
             Padding(
               padding: const EdgeInsets.all(24.0),
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 16",
+                    "Jaelynn Willams (CEO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E16()));
+                      .push(MaterialPageRoute(builder: (context) => E1()));
                 },
               ),
             ),
@@ -462,17 +502,17 @@ class _C4State extends State<C4> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 17",
+                    "Chris Brady (GC)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E17()));
+                      .push(MaterialPageRoute(builder: (context) => E2()));
                 },
               ),
             ),
@@ -481,17 +521,17 @@ class _C4State extends State<C4> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 18",
+                    "David Portugal(CFO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E18()));
+                      .push(MaterialPageRoute(builder: (context) => E3()));
                 },
               ),
             ),
@@ -500,17 +540,17 @@ class _C4State extends State<C4> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 19",
+                    "Chris Myers (EVP)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E19()));
+                      .push(MaterialPageRoute(builder: (context) => E4()));
                 },
               ),
             ),
@@ -519,17 +559,17 @@ class _C4State extends State<C4> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 20",
+                    "Heather Dumas(FVP)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E20()));
+                      .push(MaterialPageRoute(builder: (context) => E5()));
                 },
               ),
             ),
@@ -572,22 +612,32 @@ class _C5State extends State<C5> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            Center(
+              child: Text(
+                'These are the decesion making employees of the company select the employee of your choice.',
+                style: TextStyle(
+                  fontSize: 17,
+                  fontFamily: 'Oswald',
+                  color: Colors.white,
+                ),
+              ),
+            ),
             Padding(
               padding: const EdgeInsets.all(24.0),
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 21",
+                    "Ashwiani lohani(CEO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E21()));
+                      .push(MaterialPageRoute(builder: (context) => E6()));
                 },
               ),
             ),
@@ -596,17 +646,17 @@ class _C5State extends State<C5> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 22",
+                    "Pushpinder Singh(COO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E22()));
+                      .push(MaterialPageRoute(builder: (context) => E7()));
                 },
               ),
             ),
@@ -615,17 +665,17 @@ class _C5State extends State<C5> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 23",
+                    "Vinod Hejmadi(CFO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E23()));
+                      .push(MaterialPageRoute(builder: (context) => E8()));
                 },
               ),
             ),
@@ -634,17 +684,17 @@ class _C5State extends State<C5> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 24",
+                    "David Bruno(CIO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E24()));
+                      .push(MaterialPageRoute(builder: (context) => E9()));
                 },
               ),
             ),
@@ -653,17 +703,17 @@ class _C5State extends State<C5> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 25",
+                    "Brent Smith(HOD)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E25()));
+                      .push(MaterialPageRoute(builder: (context) => E10()));
                 },
               ),
             ),
@@ -679,7 +729,7 @@ class C6 extends StatefulWidget {
   _C6State createState() => _C6State();
 }
 
-class _C6State extends State<C1> {
+class _C6State extends State<C6> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -706,18 +756,28 @@ class _C6State extends State<C1> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            Center(
+              child: Text(
+                'These are the decesion making employees of the company select the employee of your choice.',
+                style: TextStyle(
+                  fontSize: 17,
+                  fontFamily: 'Oswald',
+                  color: Colors.white,
+                ),
+              ),
+            ),
             Padding(
               padding: const EdgeInsets.all(24.0),
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 31",
+                    "John Gunn(CEO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
@@ -730,13 +790,13 @@ class _C6State extends State<C1> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 32",
+                    "Suman Saha(COO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
@@ -749,13 +809,13 @@ class _C6State extends State<C1> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 33",
+                    "Daniel Brault(CFO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
@@ -768,13 +828,13 @@ class _C6State extends State<C1> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 34",
+                    "Mark Rowe",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
@@ -787,13 +847,13 @@ class _C6State extends State<C1> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 35",
+                    "Jamie Cutler",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
@@ -840,22 +900,32 @@ class _C7State extends State<C7> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            Center(
+              child: Text(
+                'These are the decesion making employees of the company select the employee of your choice.',
+                style: TextStyle(
+                  fontSize: 17,
+                  fontFamily: 'Oswald',
+                  color: Colors.white,
+                ),
+              ),
+            ),
             Padding(
               padding: const EdgeInsets.all(24.0),
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 36",
+                    "John Gunn(CEO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E36()));
+                      .push(MaterialPageRoute(builder: (context) => E31()));
                 },
               ),
             ),
@@ -864,17 +934,17 @@ class _C7State extends State<C7> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 37",
+                    "Suman Saha(COO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E37()));
+                      .push(MaterialPageRoute(builder: (context) => E32()));
                 },
               ),
             ),
@@ -883,17 +953,17 @@ class _C7State extends State<C7> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 38",
+                    "Daniel Brault(CFO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E38()));
+                      .push(MaterialPageRoute(builder: (context) => E33()));
                 },
               ),
             ),
@@ -902,17 +972,17 @@ class _C7State extends State<C7> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 39",
+                    "Mark Rowe",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E39()));
+                      .push(MaterialPageRoute(builder: (context) => E34()));
                 },
               ),
             ),
@@ -921,17 +991,17 @@ class _C7State extends State<C7> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 40",
+                    "Jamie Cutler",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E40()));
+                      .push(MaterialPageRoute(builder: (context) => E35()));
                 },
               ),
             ),
@@ -974,22 +1044,32 @@ class _C8State extends State<C8> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            Center(
+              child: Text(
+                'These are the decesion making employees of the company select the employee of your choice.',
+                style: TextStyle(
+                  fontSize: 17,
+                  fontFamily: 'Oswald',
+                  color: Colors.white,
+                ),
+              ),
+            ),
             Padding(
               padding: const EdgeInsets.all(24.0),
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 41",
+                    "John Gunn(CEO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E41()));
+                      .push(MaterialPageRoute(builder: (context) => E31()));
                 },
               ),
             ),
@@ -998,17 +1078,17 @@ class _C8State extends State<C8> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 42",
+                    "Suman Saha(COO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E42()));
+                      .push(MaterialPageRoute(builder: (context) => E32()));
                 },
               ),
             ),
@@ -1017,17 +1097,17 @@ class _C8State extends State<C8> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 43",
+                    "Daniel Brault(CFO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E43()));
+                      .push(MaterialPageRoute(builder: (context) => E33()));
                 },
               ),
             ),
@@ -1036,17 +1116,17 @@ class _C8State extends State<C8> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 44",
+                    "Mark Rowe",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E44()));
+                      .push(MaterialPageRoute(builder: (context) => E34()));
                 },
               ),
             ),
@@ -1055,17 +1135,17 @@ class _C8State extends State<C8> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 45",
+                    "Jamie Cutler",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E45()));
+                      .push(MaterialPageRoute(builder: (context) => E35()));
                 },
               ),
             ),
@@ -1108,22 +1188,32 @@ class _C9State extends State<C9> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            Center(
+              child: Text(
+                'These are the decesion making employees of the company select the employee of your choice.',
+                style: TextStyle(
+                  fontSize: 17,
+                  fontFamily: 'Oswald',
+                  color: Colors.white,
+                ),
+              ),
+            ),
             Padding(
               padding: const EdgeInsets.all(24.0),
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 46",
+                    "John Gunn(CEO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E46()));
+                      .push(MaterialPageRoute(builder: (context) => E31()));
                 },
               ),
             ),
@@ -1132,17 +1222,17 @@ class _C9State extends State<C9> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 47",
+                    "Suman Saha(COO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E47()));
+                      .push(MaterialPageRoute(builder: (context) => E32()));
                 },
               ),
             ),
@@ -1151,17 +1241,17 @@ class _C9State extends State<C9> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 48",
+                    "Daniel Brault(CFO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E48()));
+                      .push(MaterialPageRoute(builder: (context) => E33()));
                 },
               ),
             ),
@@ -1170,17 +1260,17 @@ class _C9State extends State<C9> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 49",
+                    "Mark Rowe",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E49()));
+                      .push(MaterialPageRoute(builder: (context) => E34()));
                 },
               ),
             ),
@@ -1189,17 +1279,17 @@ class _C9State extends State<C9> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 50",
+                    "Jamie Cutler",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E50()));
+                      .push(MaterialPageRoute(builder: (context) => E35()));
                 },
               ),
             ),
@@ -1242,22 +1332,32 @@ class _C10State extends State<C10> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            Center(
+              child: Text(
+                'These are the decesion making employees of the company select the employee of your choice.',
+                style: TextStyle(
+                  fontSize: 17,
+                  fontFamily: 'Oswald',
+                  color: Colors.white,
+                ),
+              ),
+            ),
             Padding(
               padding: const EdgeInsets.all(24.0),
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 51",
+                    "John Gunn(CEO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E51()));
+                      .push(MaterialPageRoute(builder: (context) => E31()));
                 },
               ),
             ),
@@ -1266,17 +1366,17 @@ class _C10State extends State<C10> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 52",
+                    "Suman Saha(COO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E52()));
+                      .push(MaterialPageRoute(builder: (context) => E32()));
                 },
               ),
             ),
@@ -1285,17 +1385,17 @@ class _C10State extends State<C10> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 53",
+                    "Daniel Brault(CFO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E53()));
+                      .push(MaterialPageRoute(builder: (context) => E33()));
                 },
               ),
             ),
@@ -1304,17 +1404,17 @@ class _C10State extends State<C10> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 54",
+                    "Mark Rowe",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E54()));
+                      .push(MaterialPageRoute(builder: (context) => E34()));
                 },
               ),
             ),
@@ -1323,17 +1423,17 @@ class _C10State extends State<C10> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 25",
+                    "Jamie Cutler",
                     style: TextStyle(
                         color: Colors.white,
-                        fontSize: 55,
+                        fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E55()));
+                      .push(MaterialPageRoute(builder: (context) => E35()));
                 },
               ),
             ),
@@ -1376,22 +1476,32 @@ class _C11State extends State<C11> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            Center(
+              child: Text(
+                'These are the decesion making employees of the company select the employee of your choice.',
+                style: TextStyle(
+                  fontSize: 17,
+                  fontFamily: 'Oswald',
+                  color: Colors.white,
+                ),
+              ),
+            ),
             Padding(
               padding: const EdgeInsets.all(24.0),
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 56",
+                    "John Gunn(CEO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E56()));
+                      .push(MaterialPageRoute(builder: (context) => E31()));
                 },
               ),
             ),
@@ -1400,17 +1510,17 @@ class _C11State extends State<C11> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 57",
+                    "Suman Saha(COO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E57()));
+                      .push(MaterialPageRoute(builder: (context) => E32()));
                 },
               ),
             ),
@@ -1419,17 +1529,17 @@ class _C11State extends State<C11> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 58",
+                    "Daniel Brault(CFO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E58()));
+                      .push(MaterialPageRoute(builder: (context) => E33()));
                 },
               ),
             ),
@@ -1438,17 +1548,17 @@ class _C11State extends State<C11> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 59",
+                    "Mark Rowe",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E59()));
+                      .push(MaterialPageRoute(builder: (context) => E34()));
                 },
               ),
             ),
@@ -1457,17 +1567,17 @@ class _C11State extends State<C11> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 60",
+                    "Jamie Cutler",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E60()));
+                      .push(MaterialPageRoute(builder: (context) => E35()));
                 },
               ),
             ),
@@ -1510,22 +1620,32 @@ class _C12State extends State<C12> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            Center(
+              child: Text(
+                'These are the decesion making employees of the company select the employee of your choice.',
+                style: TextStyle(
+                  fontSize: 17,
+                  fontFamily: 'Oswald',
+                  color: Colors.white,
+                ),
+              ),
+            ),
             Padding(
               padding: const EdgeInsets.all(24.0),
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 61",
+                    "John Gunn(CEO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E61()));
+                      .push(MaterialPageRoute(builder: (context) => E31()));
                 },
               ),
             ),
@@ -1534,17 +1654,17 @@ class _C12State extends State<C12> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 62",
+                    "Suman Saha(COO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E62()));
+                      .push(MaterialPageRoute(builder: (context) => E32()));
                 },
               ),
             ),
@@ -1553,17 +1673,17 @@ class _C12State extends State<C12> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 63",
+                    "Daniel Brault(CFO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E63()));
+                      .push(MaterialPageRoute(builder: (context) => E33()));
                 },
               ),
             ),
@@ -1572,17 +1692,17 @@ class _C12State extends State<C12> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 64",
+                    "Mark Rowe",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E64()));
+                      .push(MaterialPageRoute(builder: (context) => E34()));
                 },
               ),
             ),
@@ -1591,17 +1711,17 @@ class _C12State extends State<C12> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 65",
+                    "Jamie Cutler",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E65()));
+                      .push(MaterialPageRoute(builder: (context) => E35()));
                 },
               ),
             ),
@@ -1644,22 +1764,32 @@ class _C13State extends State<C13> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            Center(
+              child: Text(
+                'These are the decesion making employees of the company select the employee of your choice.',
+                style: TextStyle(
+                  fontSize: 17,
+                  fontFamily: 'Oswald',
+                  color: Colors.white,
+                ),
+              ),
+            ),
             Padding(
               padding: const EdgeInsets.all(24.0),
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 66",
+                    "John Gunn(CEO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E66()));
+                      .push(MaterialPageRoute(builder: (context) => E31()));
                 },
               ),
             ),
@@ -1668,17 +1798,17 @@ class _C13State extends State<C13> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 67",
+                    "Suman Saha(COO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E67()));
+                      .push(MaterialPageRoute(builder: (context) => E32()));
                 },
               ),
             ),
@@ -1687,17 +1817,17 @@ class _C13State extends State<C13> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 68",
+                    "Daniel Brault(CFO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E68()));
+                      .push(MaterialPageRoute(builder: (context) => E33()));
                 },
               ),
             ),
@@ -1706,17 +1836,17 @@ class _C13State extends State<C13> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 69",
+                    "Mark Rowe",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E69()));
+                      .push(MaterialPageRoute(builder: (context) => E34()));
                 },
               ),
             ),
@@ -1725,17 +1855,17 @@ class _C13State extends State<C13> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 70",
+                    "Jamie Cutler",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E71()));
+                      .push(MaterialPageRoute(builder: (context) => E35()));
                 },
               ),
             ),
@@ -1778,22 +1908,32 @@ class _C14State extends State<C14> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            Center(
+              child: Text(
+                'These are the decesion making employees of the company select the employee of your choice.',
+                style: TextStyle(
+                  fontSize: 17,
+                  fontFamily: 'Oswald',
+                  color: Colors.white,
+                ),
+              ),
+            ),
             Padding(
               padding: const EdgeInsets.all(24.0),
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 71",
+                    "John Gunn(CEO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E71()));
+                      .push(MaterialPageRoute(builder: (context) => E31()));
                 },
               ),
             ),
@@ -1802,17 +1942,17 @@ class _C14State extends State<C14> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 72",
+                    "Suman Saha(COO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E72()));
+                      .push(MaterialPageRoute(builder: (context) => E32()));
                 },
               ),
             ),
@@ -1821,17 +1961,17 @@ class _C14State extends State<C14> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 73",
+                    "Daniel Brault(CFO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E73()));
+                      .push(MaterialPageRoute(builder: (context) => E33()));
                 },
               ),
             ),
@@ -1840,17 +1980,17 @@ class _C14State extends State<C14> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 74",
+                    "Mark Rowe",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E74()));
+                      .push(MaterialPageRoute(builder: (context) => E34()));
                 },
               ),
             ),
@@ -1859,17 +1999,17 @@ class _C14State extends State<C14> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 75",
+                    "Jamie Cutler",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E75()));
+                      .push(MaterialPageRoute(builder: (context) => E35()));
                 },
               ),
             ),
@@ -1912,22 +2052,32 @@ class _C15State extends State<C15> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            Center(
+              child: Text(
+                'These are the decesion making employees of the company select the employee of your choice.',
+                style: TextStyle(
+                  fontSize: 17,
+                  fontFamily: 'Oswald',
+                  color: Colors.white,
+                ),
+              ),
+            ),
             Padding(
               padding: const EdgeInsets.all(24.0),
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 76",
+                    "John Gunn(CEO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E76()));
+                      .push(MaterialPageRoute(builder: (context) => E31()));
                 },
               ),
             ),
@@ -1936,17 +2086,17 @@ class _C15State extends State<C15> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 77",
+                    "Suman Saha(COO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E77()));
+                      .push(MaterialPageRoute(builder: (context) => E32()));
                 },
               ),
             ),
@@ -1955,17 +2105,17 @@ class _C15State extends State<C15> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 78",
+                    "Daniel Brault(CFO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E78()));
+                      .push(MaterialPageRoute(builder: (context) => E33()));
                 },
               ),
             ),
@@ -1974,17 +2124,17 @@ class _C15State extends State<C15> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 79",
+                    "Mark Rowe",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E79()));
+                      .push(MaterialPageRoute(builder: (context) => E34()));
                 },
               ),
             ),
@@ -1993,17 +2143,17 @@ class _C15State extends State<C15> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 81",
+                    "Jamie Cutler",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E80()));
+                      .push(MaterialPageRoute(builder: (context) => E35()));
                 },
               ),
             ),
@@ -2046,22 +2196,32 @@ class _C16State extends State<C16> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            Center(
+              child: Text(
+                'These are the decesion making employees of the company select the employee of your choice.',
+                style: TextStyle(
+                  fontSize: 17,
+                  fontFamily: 'Oswald',
+                  color: Colors.white,
+                ),
+              ),
+            ),
             Padding(
               padding: const EdgeInsets.all(24.0),
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 76",
+                    "John Gunn(CEO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E76()));
+                      .push(MaterialPageRoute(builder: (context) => E31()));
                 },
               ),
             ),
@@ -2070,17 +2230,17 @@ class _C16State extends State<C16> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 77",
+                    "Suman Saha(COO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E77()));
+                      .push(MaterialPageRoute(builder: (context) => E32()));
                 },
               ),
             ),
@@ -2089,17 +2249,17 @@ class _C16State extends State<C16> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 78",
+                    "Daniel Brault(CFO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E78()));
+                      .push(MaterialPageRoute(builder: (context) => E33()));
                 },
               ),
             ),
@@ -2108,17 +2268,17 @@ class _C16State extends State<C16> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 79",
+                    "Mark Rowe",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E79()));
+                      .push(MaterialPageRoute(builder: (context) => E34()));
                 },
               ),
             ),
@@ -2127,17 +2287,17 @@ class _C16State extends State<C16> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 80",
+                    "Jamie Cutler",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E80()));
+                      .push(MaterialPageRoute(builder: (context) => E35()));
                 },
               ),
             ),
@@ -2180,22 +2340,32 @@ class _C17State extends State<C17> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            Center(
+              child: Text(
+                'These are the decesion making employees of the company select the employee of your choice.',
+                style: TextStyle(
+                  fontSize: 17,
+                  fontFamily: 'Oswald',
+                  color: Colors.white,
+                ),
+              ),
+            ),
             Padding(
               padding: const EdgeInsets.all(24.0),
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 81",
+                    "John Gunn(CEO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E81()));
+                      .push(MaterialPageRoute(builder: (context) => E31()));
                 },
               ),
             ),
@@ -2204,17 +2374,17 @@ class _C17State extends State<C17> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 82",
+                    "Suman Saha(COO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E82()));
+                      .push(MaterialPageRoute(builder: (context) => E32()));
                 },
               ),
             ),
@@ -2223,17 +2393,17 @@ class _C17State extends State<C17> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 83",
+                    "Daniel Brault(CFO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E83()));
+                      .push(MaterialPageRoute(builder: (context) => E33()));
                 },
               ),
             ),
@@ -2242,17 +2412,17 @@ class _C17State extends State<C17> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 84",
+                    "Mark Rowe",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E84()));
+                      .push(MaterialPageRoute(builder: (context) => E34()));
                 },
               ),
             ),
@@ -2261,17 +2431,17 @@ class _C17State extends State<C17> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 85",
+                    "Jamie Cutler",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E10()));
+                      .push(MaterialPageRoute(builder: (context) => E35()));
                 },
               ),
             ),
@@ -2314,22 +2484,32 @@ class _C18State extends State<C18> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            Center(
+              child: Text(
+                'These are the decesion making employees of the company select the employee of your choice.',
+                style: TextStyle(
+                  fontSize: 17,
+                  fontFamily: 'Oswald',
+                  color: Colors.white,
+                ),
+              ),
+            ),
             Padding(
               padding: const EdgeInsets.all(24.0),
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 86",
+                    "John Gunn(CEO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E86()));
+                      .push(MaterialPageRoute(builder: (context) => E31()));
                 },
               ),
             ),
@@ -2338,17 +2518,17 @@ class _C18State extends State<C18> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 87",
+                    "Suman Saha(COO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E87()));
+                      .push(MaterialPageRoute(builder: (context) => E32()));
                 },
               ),
             ),
@@ -2357,17 +2537,17 @@ class _C18State extends State<C18> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 88",
+                    "Daniel Brault(CFO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E88()));
+                      .push(MaterialPageRoute(builder: (context) => E33()));
                 },
               ),
             ),
@@ -2376,17 +2556,17 @@ class _C18State extends State<C18> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 89",
+                    "Mark Rowe",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E89()));
+                      .push(MaterialPageRoute(builder: (context) => E34()));
                 },
               ),
             ),
@@ -2395,17 +2575,17 @@ class _C18State extends State<C18> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 89",
+                    "Jamie Cutler",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E90()));
+                      .push(MaterialPageRoute(builder: (context) => E35()));
                 },
               ),
             ),
@@ -2448,22 +2628,32 @@ class _C19State extends State<C19> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            Center(
+              child: Text(
+                'These are the decesion making employees of the company select the employee of your choice.',
+                style: TextStyle(
+                  fontSize: 17,
+                  fontFamily: 'Oswald',
+                  color: Colors.white,
+                ),
+              ),
+            ),
             Padding(
               padding: const EdgeInsets.all(24.0),
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 91",
+                    "John Gunn(CEO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E91()));
+                      .push(MaterialPageRoute(builder: (context) => E31()));
                 },
               ),
             ),
@@ -2472,17 +2662,17 @@ class _C19State extends State<C19> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 92",
+                    "Suman Saha(COO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E92()));
+                      .push(MaterialPageRoute(builder: (context) => E32()));
                 },
               ),
             ),
@@ -2491,17 +2681,17 @@ class _C19State extends State<C19> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 93",
+                    "Daniel Brault(CFO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E93()));
+                      .push(MaterialPageRoute(builder: (context) => E33()));
                 },
               ),
             ),
@@ -2510,17 +2700,17 @@ class _C19State extends State<C19> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 94",
+                    "Mark Rowe",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E94()));
+                      .push(MaterialPageRoute(builder: (context) => E34()));
                 },
               ),
             ),
@@ -2529,17 +2719,17 @@ class _C19State extends State<C19> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 95",
+                    "Jamie Cutler",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E95()));
+                      .push(MaterialPageRoute(builder: (context) => E35()));
                 },
               ),
             ),
@@ -2582,22 +2772,32 @@ class _C20State extends State<C20> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            Center(
+              child: Text(
+                'These are the decesion making employees of the company select the employee of your choice.',
+                style: TextStyle(
+                  fontSize: 17,
+                  fontFamily: 'Oswald',
+                  color: Colors.white,
+                ),
+              ),
+            ),
             Padding(
               padding: const EdgeInsets.all(24.0),
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 96",
+                    "John Gunn(CEO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E96()));
+                      .push(MaterialPageRoute(builder: (context) => E31()));
                 },
               ),
             ),
@@ -2606,17 +2806,17 @@ class _C20State extends State<C20> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 97",
+                    "Suman Saha(COO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E97()));
+                      .push(MaterialPageRoute(builder: (context) => E32()));
                 },
               ),
             ),
@@ -2625,17 +2825,17 @@ class _C20State extends State<C20> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 98",
+                    "Daniel Brault(CFO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E98()));
+                      .push(MaterialPageRoute(builder: (context) => E33()));
                 },
               ),
             ),
@@ -2644,17 +2844,17 @@ class _C20State extends State<C20> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 99",
+                    "Mark Rowe",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E99()));
+                      .push(MaterialPageRoute(builder: (context) => E34()));
                 },
               ),
             ),
@@ -2663,17 +2863,17 @@ class _C20State extends State<C20> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 100",
+                    "Jamie Cutler",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E100()));
+                      .push(MaterialPageRoute(builder: (context) => E35()));
                 },
               ),
             ),
@@ -2716,22 +2916,32 @@ class _C21State extends State<C21> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            Center(
+              child: Text(
+                'These are the decesion making employees of the company select the employee of your choice.',
+                style: TextStyle(
+                  fontSize: 17,
+                  fontFamily: 'Oswald',
+                  color: Colors.white,
+                ),
+              ),
+            ),
             Padding(
               padding: const EdgeInsets.all(24.0),
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 101",
+                    "John Gunn(CEO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E101()));
+                      .push(MaterialPageRoute(builder: (context) => E31()));
                 },
               ),
             ),
@@ -2740,17 +2950,17 @@ class _C21State extends State<C21> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 102",
+                    "Suman Saha(COO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E102()));
+                      .push(MaterialPageRoute(builder: (context) => E32()));
                 },
               ),
             ),
@@ -2759,17 +2969,17 @@ class _C21State extends State<C21> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 103",
+                    "Daniel Brault(CFO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E103()));
+                      .push(MaterialPageRoute(builder: (context) => E33()));
                 },
               ),
             ),
@@ -2778,17 +2988,17 @@ class _C21State extends State<C21> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 104",
+                    "Mark Rowe",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E104()));
+                      .push(MaterialPageRoute(builder: (context) => E34()));
                 },
               ),
             ),
@@ -2797,17 +3007,17 @@ class _C21State extends State<C21> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 105",
+                    "Jamie Cutler",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E105()));
+                      .push(MaterialPageRoute(builder: (context) => E35()));
                 },
               ),
             ),
@@ -2850,22 +3060,32 @@ class _C22State extends State<C22> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            Center(
+              child: Text(
+                'These are the decesion making employees of the company select the employee of your choice.',
+                style: TextStyle(
+                  fontSize: 17,
+                  fontFamily: 'Oswald',
+                  color: Colors.white,
+                ),
+              ),
+            ),
             Padding(
               padding: const EdgeInsets.all(24.0),
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 106",
+                    "John Gunn(CEO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E106()));
+                      .push(MaterialPageRoute(builder: (context) => E31()));
                 },
               ),
             ),
@@ -2874,17 +3094,17 @@ class _C22State extends State<C22> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 107",
+                    "Suman Saha(COO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E107()));
+                      .push(MaterialPageRoute(builder: (context) => E32()));
                 },
               ),
             ),
@@ -2893,17 +3113,17 @@ class _C22State extends State<C22> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 108",
+                    "Daniel Brault(CFO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E108()));
+                      .push(MaterialPageRoute(builder: (context) => E33()));
                 },
               ),
             ),
@@ -2912,17 +3132,17 @@ class _C22State extends State<C22> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 109",
+                    "Mark Rowe",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E109()));
+                      .push(MaterialPageRoute(builder: (context) => E34()));
                 },
               ),
             ),
@@ -2931,17 +3151,17 @@ class _C22State extends State<C22> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 110",
+                    "Jamie Cutler",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E110()));
+                      .push(MaterialPageRoute(builder: (context) => E35()));
                 },
               ),
             ),
@@ -2984,22 +3204,32 @@ class _C23State extends State<C23> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            Center(
+              child: Text(
+                'These are the decesion making employees of the company select the employee of your choice.',
+                style: TextStyle(
+                  fontSize: 17,
+                  fontFamily: 'Oswald',
+                  color: Colors.white,
+                ),
+              ),
+            ),
             Padding(
               padding: const EdgeInsets.all(24.0),
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 111",
+                    "John Gunn(CEO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E11()));
+                      .push(MaterialPageRoute(builder: (context) => E31()));
                 },
               ),
             ),
@@ -3008,17 +3238,17 @@ class _C23State extends State<C23> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 112",
+                    "Suman Saha(COO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E112()));
+                      .push(MaterialPageRoute(builder: (context) => E32()));
                 },
               ),
             ),
@@ -3027,17 +3257,17 @@ class _C23State extends State<C23> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 113",
+                    "Daniel Brault(CFO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E113()));
+                      .push(MaterialPageRoute(builder: (context) => E33()));
                 },
               ),
             ),
@@ -3046,17 +3276,17 @@ class _C23State extends State<C23> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 114",
+                    "Mark Rowe",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E114()));
+                      .push(MaterialPageRoute(builder: (context) => E34()));
                 },
               ),
             ),
@@ -3065,17 +3295,17 @@ class _C23State extends State<C23> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 115",
+                    "Jamie Cutler",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E115()));
+                      .push(MaterialPageRoute(builder: (context) => E35()));
                 },
               ),
             ),
@@ -3118,22 +3348,32 @@ class _C24State extends State<C24> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            Center(
+              child: Text(
+                'These are the decesion making employees of the company select the employee of your choice.',
+                style: TextStyle(
+                  fontSize: 17,
+                  fontFamily: 'Oswald',
+                  color: Colors.white,
+                ),
+              ),
+            ),
             Padding(
               padding: const EdgeInsets.all(24.0),
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 116",
+                    "John Gunn(CEO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E116()));
+                      .push(MaterialPageRoute(builder: (context) => E31()));
                 },
               ),
             ),
@@ -3142,17 +3382,17 @@ class _C24State extends State<C24> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 117",
+                    "Suman Saha(COO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E117()));
+                      .push(MaterialPageRoute(builder: (context) => E32()));
                 },
               ),
             ),
@@ -3161,17 +3401,17 @@ class _C24State extends State<C24> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 118",
+                    "Daniel Brault(CFO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E118()));
+                      .push(MaterialPageRoute(builder: (context) => E33()));
                 },
               ),
             ),
@@ -3180,17 +3420,17 @@ class _C24State extends State<C24> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 119",
+                    "Mark Rowe",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E119()));
+                      .push(MaterialPageRoute(builder: (context) => E34()));
                 },
               ),
             ),
@@ -3199,17 +3439,17 @@ class _C24State extends State<C24> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 120",
+                    "Jamie Cutler",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E120()));
+                      .push(MaterialPageRoute(builder: (context) => E35()));
                 },
               ),
             ),
@@ -3252,22 +3492,32 @@ class _C25State extends State<C25> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            Center(
+              child: Text(
+                'These are the decesion making employees of the company select the employee of your choice.',
+                style: TextStyle(
+                  fontSize: 17,
+                  fontFamily: 'Oswald',
+                  color: Colors.white,
+                ),
+              ),
+            ),
             Padding(
               padding: const EdgeInsets.all(24.0),
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 121",
+                    "John Gunn(CEO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E121()));
+                      .push(MaterialPageRoute(builder: (context) => E31()));
                 },
               ),
             ),
@@ -3276,17 +3526,17 @@ class _C25State extends State<C25> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 122",
+                    "Suman Saha(COO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E122()));
+                      .push(MaterialPageRoute(builder: (context) => E32()));
                 },
               ),
             ),
@@ -3295,17 +3545,17 @@ class _C25State extends State<C25> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 123",
+                    "Daniel Brault(CFO)",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E123()));
+                      .push(MaterialPageRoute(builder: (context) => E33()));
                 },
               ),
             ),
@@ -3314,17 +3564,17 @@ class _C25State extends State<C25> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 124",
+                    "Mark Rowe",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E124()));
+                      .push(MaterialPageRoute(builder: (context) => E34()));
                 },
               ),
             ),
@@ -3333,17 +3583,17 @@ class _C25State extends State<C25> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Employee 125",
+                    "Jamie Cutler",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => E125()));
+                      .push(MaterialPageRoute(builder: (context) => E35()));
                 },
               ),
             ),

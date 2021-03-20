@@ -34,18 +34,28 @@ class _S1ScreenState extends State<S1Screen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            Center(
+              child: Text(
+                'Select the Company of your choice.',
+                style: TextStyle(
+                  fontSize: 30,
+                  fontFamily: 'Oswald',
+                  color: Colors.white,
+                ),
+              ),
+            ),
             Padding(
               padding: const EdgeInsets.all(24.0),
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Company 1",
+                    "Air Methods Corporation",
                     style: TextStyle(
                         color: Colors.white,
-                        fontSize: 35,
+                        fontSize: 30,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
@@ -58,13 +68,13 @@ class _S1ScreenState extends State<S1Screen> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Company 2",
+                    "Air India Ltd",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
@@ -77,13 +87,13 @@ class _S1ScreenState extends State<S1Screen> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Company 3",
+                    "IndiGo",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
@@ -96,13 +106,13 @@ class _S1ScreenState extends State<S1Screen> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Company 4",
+                    "SATS",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
@@ -115,13 +125,13 @@ class _S1ScreenState extends State<S1Screen> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Company 5",
+                    "AirAsia",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
@@ -168,18 +178,28 @@ class _S2ScreenState extends State<S2Screen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            Center(
+              child: Text(
+                'Select the Company of your choice.',
+                style: TextStyle(
+                  fontSize: 30,
+                  fontFamily: 'Oswald',
+                  color: Colors.white,
+                ),
+              ),
+            ),
             Padding(
               padding: const EdgeInsets.all(24.0),
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Company 6",
+                    "Joseph Ribkoff",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
@@ -192,13 +212,13 @@ class _S2ScreenState extends State<S2Screen> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Company 7",
+                    "OTB",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
@@ -211,13 +231,13 @@ class _S2ScreenState extends State<S2Screen> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Company 8",
+                    "Nautica",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
@@ -230,13 +250,13 @@ class _S2ScreenState extends State<S2Screen> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Company 9",
+                    "Kitex Garments Ltd",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
@@ -249,13 +269,13 @@ class _S2ScreenState extends State<S2Screen> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Company 10",
+                    "PVH Corp.",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
@@ -302,18 +322,28 @@ class _S3ScreenState extends State<S3Screen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            Center(
+              child: Text(
+                'Select the Company of your choice.',
+                style: TextStyle(
+                  fontSize: 30,
+                  fontFamily: 'Oswald',
+                  color: Colors.white,
+                ),
+              ),
+            ),
             Padding(
               padding: const EdgeInsets.all(24.0),
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Company 11",
+                    "Durr",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
@@ -326,13 +356,13 @@ class _S3ScreenState extends State<S3Screen> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Company 12",
+                    "Dayco Products LLC",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
@@ -345,13 +375,13 @@ class _S3ScreenState extends State<S3Screen> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Company 13",
+                    "CARDONE Industries",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
@@ -364,13 +394,13 @@ class _S3ScreenState extends State<S3Screen> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Company 14",
+                    "Air International Thermal Systems",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
@@ -383,13 +413,13 @@ class _S3ScreenState extends State<S3Screen> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Company 15",
+                    "Ducati Motor Holding S.p.A",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
@@ -436,18 +466,28 @@ class _S4ScreenState extends State<S4Screen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            Center(
+              child: Text(
+                'Select the Company of your choice.',
+                style: TextStyle(
+                  fontSize: 30,
+                  fontFamily: 'Oswald',
+                  color: Colors.white,
+                ),
+              ),
+            ),
             Padding(
               padding: const EdgeInsets.all(24.0),
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Company 16",
+                    "Curtiss-Wright Corporation",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
@@ -460,13 +500,13 @@ class _S4ScreenState extends State<S4Screen> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Company 17",
+                    "RBC Bearings Incorporated",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
@@ -479,13 +519,13 @@ class _S4ScreenState extends State<S4Screen> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Company 18",
+                    "Textron Inc.",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
@@ -498,13 +538,13 @@ class _S4ScreenState extends State<S4Screen> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Company 19",
+                    "General Atomics Aeronautical Systems, Inc.",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
@@ -517,13 +557,13 @@ class _S4ScreenState extends State<S4Screen> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Company 20",
+                    "Triumph Group",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
@@ -570,18 +610,28 @@ class _S5ScreenState extends State<S5Screen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            Center(
+              child: Text(
+                'Select the Company of your choice.',
+                style: TextStyle(
+                  fontSize: 30,
+                  fontFamily: 'Oswald',
+                  color: Colors.white,
+                ),
+              ),
+            ),
             Padding(
               padding: const EdgeInsets.all(24.0),
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Company 21",
+                    "City National Bank",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
@@ -594,13 +644,13 @@ class _S5ScreenState extends State<S5Screen> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Company 22",
+                    "Indonesia Eximbank",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
@@ -613,13 +663,13 @@ class _S5ScreenState extends State<S5Screen> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Company 23",
+                    "SBI Singapore",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
@@ -632,13 +682,13 @@ class _S5ScreenState extends State<S5Screen> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Company 24",
+                    "Mashreq Bank",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)
@@ -651,13 +701,13 @@ class _S5ScreenState extends State<S5Screen> {
               child: new ElevatedButton(
                 child: ListTile(
                   title: Text(
-                    "Company 25",
+                    "DBS Bank",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
                         fontFamily: 'Oswald'),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context)

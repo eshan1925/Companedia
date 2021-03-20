@@ -34,18 +34,30 @@ class _SectorScreenState extends State<SectorScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            Center(
+              child: Text(
+                'Select the Sector of your choice.',
+                style: TextStyle(
+                  fontSize: 30,
+                  fontFamily: 'Oswald',
+                  color: Colors.white,
+                ),
+              ),
+            ),
             Padding(
               padding: const EdgeInsets.all(24.0),
               child: new ElevatedButton(
                 child: ListTile(
-                  title: Text(
-                    "Sector 1",
-                    style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 35,
-                        fontFamily: 'Oswald'),
+                  title: Center(
+                    child: Text(
+                      "Airlines/Aviation",
+                      style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 35,
+                          fontFamily: 'Oswald'),
+                    ),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
                   Navigator.of(context).push(
@@ -57,18 +69,20 @@ class _SectorScreenState extends State<SectorScreen> {
               padding: const EdgeInsets.all(24.0),
               child: new ElevatedButton(
                 child: ListTile(
-                  title: Text(
-                    "Sector 2",
-                    style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 35,
-                        fontFamily: 'Oswald'),
+                  title: Center(
+                    child: Text(
+                      "Apparel & Fashion",
+                      style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 35,
+                          fontFamily: 'Oswald'),
+                    ),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
-                  Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => S2Screen()));
+                  Navigator.of(context).push(
+                      MaterialPageRoute(builder: (context) => S2Screen()));
                 },
               ),
             ),
@@ -76,18 +90,20 @@ class _SectorScreenState extends State<SectorScreen> {
               padding: const EdgeInsets.all(24.0),
               child: new ElevatedButton(
                 child: ListTile(
-                  title: Text(
-                    "Sector 3",
-                    style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 35,
-                        fontFamily: 'Oswald'),
+                  title: Center(
+                    child: Text(
+                      "Automotive",
+                      style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 35,
+                          fontFamily: 'Oswald'),
+                    ),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
-                  Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => S3Screen()));
+                  Navigator.of(context).push(
+                      MaterialPageRoute(builder: (context) => S3Screen()));
                 },
               ),
             ),
@@ -95,18 +111,20 @@ class _SectorScreenState extends State<SectorScreen> {
               padding: const EdgeInsets.all(24.0),
               child: new ElevatedButton(
                 child: ListTile(
-                  title: Text(
-                    "Sector 4",
-                    style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 35,
-                        fontFamily: 'Oswald'),
+                  title: Center(
+                    child: Text(
+                      "Aviation & Aerospace",
+                      style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 35,
+                          fontFamily: 'Oswald'),
+                    ),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
-                  Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => S4Screen()));
+                  Navigator.of(context).push(
+                      MaterialPageRoute(builder: (context) => S4Screen()));
                 },
               ),
             ),
@@ -114,18 +132,20 @@ class _SectorScreenState extends State<SectorScreen> {
               padding: const EdgeInsets.all(24.0),
               child: new ElevatedButton(
                 child: ListTile(
-                  title: Text(
-                    "Sector 5",
-                    style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 35,
-                        fontFamily: 'Oswald'),
+                  title: Center(
+                    child: Text(
+                      "Banking",
+                      style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 35,
+                          fontFamily: 'Oswald'),
+                    ),
                   ),
-                  tileColor: Colors.teal,
+                  tileColor: Colors.amber.shade500,
                 ),
                 onPressed: () {
-                  Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => S5Screen()));
+                  Navigator.of(context).push(
+                      MaterialPageRoute(builder: (context) => S5Screen()));
                 },
               ),
             ),
